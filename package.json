@@ -10,7 +10,7 @@
   },
   "bin": {
     "repl-plus": "./lib/repl-plus.js",
-    "repl-plus-mongoose": "./lib/repl-plus-mongoose"
+    "mongoose-repl-plus": "./lib/mongoose-repl-plus.js"
   },
   "keywords": [
     "repl",

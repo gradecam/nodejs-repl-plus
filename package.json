@@ -1,0 +1,33 @@
+{
+  "name": "repl-plus",
+  "description": "A batteries included repl.",
+  "version": "0.1.0",
+  "main": "index.js",
+  "author": "Jarom Loveridge",
+  "license": "MIT",
+  "scripts": {
+    "start": "node --harmony ./lib/repl-plus.js"
+  },
+  "bin": {
+    "repl-plus": "./lib/repl-plus.js",
+    "repl-plus-mongoose": "./lib/repl-plus-mongoose"
+  },
+  "keywords": [
+    "repl",
+    "shell",
+    "deferred",
+    "promise",
+    "co"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gradecam/nodejs-repl-plus.git"
+  },
+  "dependencies": {
+    "co": "^4.5.4",
+    "commander": "^2.8.1",
+    "lodash": "^3.9.1",
+    "mongoose": "^4.0.6",
+    "q": "^1.4.1"
+  }
+}

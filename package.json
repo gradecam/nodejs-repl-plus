@@ -1,6 +1,6 @@
 {
   "name": "repl-plus",
-  "description": "A batteries included repl.",
+  "description": "A batteries included REPL.",
   "version": "0.1.0",
   "main": "index.js",
   "author": "Jarom Loveridge",
